@@ -67,9 +67,6 @@ To develop a machine learning system that can identify fraudulent credit card tr
 #### Outcome
 
 Successfully created a fraud detection model that accurately classified fraudulent and genuine transactions while demonstrating the importance of handling imbalanced datasets.
-
----
-
 ## Technologies and Tools Used
 
 * Python
@@ -85,6 +82,21 @@ Successfully created a fraud detection model that accurately classified fraudule
 The Credit Card Fraud Detection model was developed using Logistic Regression and Random Forest algorithms. The dataset was preprocessed and normalized, and class imbalance was handled using undersampling. Performance was evaluated using Precision, Recall, and F1-score. Both models achieved an F1-score of 0.967, indicating excellent performance in detecting fraudulent transactions. Since the performance was identical, either model can be selected for deployment.
 
 
+---
+### Task 4: Iris Flower Classification
+##  Objectives
+The primary objective of this project is to build a machine learning model that accurately classifies Iris flowers into three distinct species (*Setosa*, *Versicolor*, and *Virginica*). By leveraging four physical measurements (sepal and petal lengths and widths), the project aims to demonstrate how a supervised classification algorithm can automate botanical identification.
+
+## Key Activities Performed
+* **Data Exploration:** Analyzed the dataset to identify patterns, discovering that *Iris-setosa* forms a completely distinct cluster, while *Versicolor* and *Virginica* have slight structural overlaps.
+* **Train-Test Splitting:** Segmented the 150-sample dataset into independent training and testing sets to ensure an unbiased evaluation of the model.
+* **Model Training:** Implemented and trained a Scikit-Learn classification algorithm to map the physical features to their respective species.
+* **Evaluation:** Tested the model on unseen data, calculating the exact classification accuracy score.
+
+##  Conclusion
+The project successfully achieved its goal, with the trained model delivering a highly accurate test performance of **95% - 98%**. The results prove that simple physical dimensions—particularly petal length and width—provide clear, reliable signals for automation. While *Setosa* is effortlessly isolated, the model effectively untangled the subtle measurement overlaps between *Versicolor* and *Virginica*, proving that lightweight machine learning algorithms are exceptionally robust for structured classification tasks.
+
+---
 
 ## Machine Learning Concepts Applied
 
