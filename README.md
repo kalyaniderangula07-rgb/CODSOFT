@@ -98,6 +98,21 @@ The project successfully achieved its goal, with the trained model delivering a 
 
 ---
 
+### Task 5: SALES PREDICTION USING PYTHON
+A machine learning repository dedicated to forecasting product sales based on advertising expenditure across various media platforms. This project analyzes the impact of budgeting strategies on overall revenue and utilizes regression algorithms to generate precise predictions.
+
+##  Objectives
+* **Predict Future Sales:** Develop a reliable machine learning model to estimate product sales based on specific marketing investments.
+* **Identify High-Impact Channels:** Evaluate which advertising mediums (TV, Radio, or Newspaper) generate the highest return on investment (ROI).
+* **Budget Optimization:** Create a data-driven framework to help businesses allocate marketing capital strategically to maximize revenue.
+
+##  Key Activities Performed
+* **Data Inspection & Exploration:** Analyzed the 200-row `advertising.csv` dataset. Examined structural correlations to understand how different media investments independently impact the target `Sales` variable.
+* **Feature Selection:** Segmented independent variables (`TV`, `Radio`, and `Newspaper` budgets) away from the target variable (`Sales`). 
+* **Data Splitting:** Structured the dataset into an 80% training matrix and a 20% testing split to ensure an unbiased evaluation of the final model's real-world performance.
+* **Model Training:** Built and deployed a multivariate Linear Regression model using Python's `scikit-learn` framework to map advertising costs effectively.
+  This project proves that machine learning can reliably forecast corporate revenue by analyzing advertising distributions, achieving an exceptionally high $R^2$ score (prediction accuracy equivalent).
+  Key Finding: Data visualization and model evaluation explicitly revealed that TV advertising has the strongest linear correlation with sales, while newspaper advertising provides the weakest return on investment.
 ## Machine Learning Concepts Applied
 
 During these projects, the following concepts were implemented:
